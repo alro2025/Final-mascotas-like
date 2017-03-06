@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mascotas3.0</string>
+    <string name="nombre">SCOOBY DOO</string>
+    <string name="bio_nombre">Angel Alvarez Rodríguez</string>
+    <string name="icono_star">top5</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="mibio">Nací el 06 de setiembre de 1991 en la
+        Ciudad de Lima. En 2012 me recibí de Tec.
+        en Mecatrónica, y actualmente estoy concluyendo la carrera
+        de Ing. Mecatrónica. Me gusta la música y llevo 2 años
+        de un feliz matrimonio con mi amada esposa Maribel</string>
+    <string name="contenido_nombre">Nombre completo</string>
+    <string name="contenido_email">Email</string>
+    <string name="contenido_descripcion">Mensaje</string>
+    <string name="Btn_Enviar">Enviar Comentario</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

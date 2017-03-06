@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_biografia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.alro2025.mascotas30.Biografia">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar"
+        ></include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/bio_nombre"
+        android:id="@+id/tvNombreBio"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/top_nombre"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/civFoto"
+        android:layout_width="@dimen/size_biografia_CIV"
+        android:layout_height="@dimen/size_biografia_CIV"
+        android:src="@drawable/aar"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/top_CIV"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="@dimen/corner_width_CIV"
+        app:civ_border="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/mibio"
+        android:id="@+id/tvDescripcion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/top_desc"
+        android:paddingRight="@dimen/padding_desc"
+        android:paddingLeft="@dimen/padding_desc"
+        />
+
+
+</LinearLayout>

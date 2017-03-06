@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.alro2025.mascotas30.MainActivity">
+
+    <item android:id="@+id/btnStar"
+        android:icon="@mipmap/ic_star"
+        android:title="@string/icono_star"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/mBiografia"
+        android:title="@string/menu_about"
+        android:orderInCategory="101"
+        ></item>
+    <item
+        android:id="@+id/mcontacto"
+        android:title="@string/menu_contacto"
+        android:orderInCategory="100"
+        ></item>
+
+</menu>
